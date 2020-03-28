@@ -1,0 +1,23 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+html, body, #index {
+  height: 100%;
+  margin: 0;
+  background-color: #f9f8f7;;
+}
+.cont {
+  display: flex;
+  height: calc(100% - 50px); 
+  background-color: #eef5f9
+}
+
+.main {
+  overflow-y: scroll;
+  height:100%;
+  width: 100%;
+  padding: 15px 15px 0 15px;
+}
+
+.billin-invoice {
+  margin: 50px;
+}

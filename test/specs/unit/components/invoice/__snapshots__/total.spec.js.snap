@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Total /> should mount empty component 1`] = `
+<DocumentFragment>
+  <div
+    class="billin-total"
+  >
+    <span>
+      Total
+    </span>
+    <span>
+       €
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Total /> should mount with total value 1`] = `
+<DocumentFragment>
+  <div
+    class="billin-total"
+  >
+    <span>
+      Total
+    </span>
+    <span>
+      248 €
+    </span>
+  </div>
+</DocumentFragment>
+`;

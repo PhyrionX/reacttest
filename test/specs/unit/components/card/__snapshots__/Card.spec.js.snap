@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should mount component with title 1`] = `
+<DocumentFragment>
+  <div
+    class="tfg-card"
+  >
+    <div
+      class="tfg-card__heading"
+    >
+      Hello
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Card /> should mount component with title and body 1`] = `
+<DocumentFragment>
+  <div
+    class="tfg-card"
+  >
+    <div
+      class="tfg-card__heading"
+    >
+      Hello
+    </div>
+    <div
+      class="tfg-card__body"
+    >
+      Children
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Card /> should mount empty component 1`] = `
+<DocumentFragment>
+  <div
+    class="tfg-card"
+  />
+</DocumentFragment>
+`;

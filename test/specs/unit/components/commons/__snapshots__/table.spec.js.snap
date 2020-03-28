@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> should mount the component 1`] = `
+<DocumentFragment>
+  <table
+    class="table tfg-table"
+  >
+    <thead>
+      <tr>
+        <th>
+          test1
+        </th>
+        <th>
+          test2
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          class=""
+        >
+          a
+        </td>
+        <td
+          class=""
+        >
+          March 28th 2020, 6:28:59 pm
+        </td>
+      </tr>
+      <tr>
+        <td
+          class=""
+        >
+          b
+        </td>
+        <td
+          class=""
+        >
+          March 28th 2020, 6:28:59 pm
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

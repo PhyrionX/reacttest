@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BillinInfo /> should mount empty component 1`] = `
+<DocumentFragment>
+  <div
+    class="billin-info"
+  />
+</DocumentFragment>
+`;
+
+exports[`<BillinInfo /> should mount with items 1`] = `
+<DocumentFragment>
+  <div
+    class="billin-info"
+  >
+    <div
+      class="billin-info__item"
+    >
+      <p
+        class="billin-info__title"
+      >
+        testTitle
+      </p>
+      <p
+        class="billin-info__info"
+      >
+        testInfo
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

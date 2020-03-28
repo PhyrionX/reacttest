@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should mount empty component 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <input
+      aria-label="input"
+      class="form-control "
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> should mount with label, type, id and placeholder 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <label
+      for="testId"
+    >
+      testLabel
+    </label>
+    <input
+      aria-label="input"
+      class="form-control "
+      id="testId"
+      placeholder="testPlaceholder"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> should mount with label, type, id, placeholder and error 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <label
+      for="testId"
+    >
+      testLabel
+    </label>
+    <input
+      aria-label="input"
+      class="form-control is-invalid"
+      id="testId"
+      placeholder="testPlaceholder"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> should mount with value and onChange 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <label
+      for="testId"
+    >
+      testLabel
+    </label>
+    <input
+      aria-label="input"
+      class="form-control is-invalid"
+      id="testId"
+      placeholder="testPlaceholder"
+      type="text"
+      value="testValue"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Input /> should mount without label, with type, id and placeholder 1`] = `
+<DocumentFragment>
+  <div
+    class="form-group"
+  >
+    <input
+      aria-label="input"
+      class="form-control "
+      id="testId"
+      placeholder="testPlaceholder"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

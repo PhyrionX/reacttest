@@ -1,0 +1,17 @@
+.billin-info {
+  display: flex;
+
+  &__item {
+    width: 50%;
+    text-align: center;
+  }
+
+  &__title {
+    color: darkgray;
+    margin-bottom: 0;
+  }
+
+  &__info {
+    font-weight: 700;
+  } 
+}

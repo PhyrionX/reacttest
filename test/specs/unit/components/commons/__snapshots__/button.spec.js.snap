@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should mount component 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="button"
+    class="billin-button"
+  >
+    testText
+  </button>
+</DocumentFragment>
+`;
+
+exports[`<Button /> should mount empty component 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="button"
+    class="billin-button"
+  />
+</DocumentFragment>
+`;
