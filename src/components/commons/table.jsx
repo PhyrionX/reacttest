@@ -42,7 +42,8 @@ function Table({ columns, data, onRowClick }) {
 
 Table.propTypes = {
   columns: PropTypes.array.isRequired,
-  data: PropTypes.array.isRequired
+  data: PropTypes.array.isRequired,
+  onRowClick: PropTypes.func
 } 
 
 export default Table;

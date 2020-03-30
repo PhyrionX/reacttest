@@ -4,7 +4,7 @@ import logo from '../assets/images/new-logotype-negative.png'
 import './header.scss'
 import localStorageService from '../services/localStorage';
 
-export const Header = () => {
+export default function Header() {
   const [ , setAuthentication ] = useContext(AuthenticationContext);
 
   function handleLogout() {

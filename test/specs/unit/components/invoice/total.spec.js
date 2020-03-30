@@ -10,7 +10,7 @@ describe('<Total />', () => {
   })
 
   it('should mount with total value', () => {
-    const { asFragment } = render(<Total total={ '248' }/>);
+    const { asFragment } = render(<Total total={ 248 }/>);
     
     expect(asFragment()).toMatchSnapshot();
   })

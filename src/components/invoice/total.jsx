@@ -1,10 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import './total.scss'
 
-export default function Total({ total }) {
+function Total({ total }) {
   return (
     <div className="billin-total">
       <span>Total</span><span>{ total } €</span>
     </div>
   )
 }
+
+Total.propTypes = {
+  total: PropTypes.number
+}
+
+export default Total;

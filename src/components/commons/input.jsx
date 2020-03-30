@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './input.scss';
 
-export default function Input({type, value, id, error, onChange, placeholder, label, onKeyPress}) {
+function Input({type, value, id, error, onChange, placeholder, label, onKeyPress}) {
   return (
     <div className="form-group">
       { label && <label htmlFor={ id }>{ label }</label> }
@@ -20,3 +21,16 @@ export default function Input({type, value, id, error, onChange, placeholder, la
     </div>
   )
 }
+
+Input.propTypes = {
+  type: PropTypes.string,
+  value: PropTypes.string,
+  id: PropTypes.string,
+  placeholder: PropTypes.string,
+  label: PropTypes.string,
+  error: PropTypes.bool,
+  onChange: PropTypes.func,
+  onKeyPress: PropTypes.func
+}
+
+export default Input;

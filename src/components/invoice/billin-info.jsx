@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './billin-info.scss';
 
-export default function BillinInfo({ items }) {
+function BillinInfo({ items }) {
   return (
     <div className="billin-info">
       { items && items.map((item) => (<div key={ item.title } className="billin-info__item">
@@ -11,3 +12,9 @@ export default function BillinInfo({ items }) {
     </div>
   )
 }
+
+BillinInfo.propTypes = {
+  items: PropTypes.array
+}
+
+export default BillinInfo;

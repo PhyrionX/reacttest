@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './card.scss';
 
-export default function Card({ title, children }) {
+function Card({ title, children }) {
   return (
     <div className="tfg-card">
       { title  && (<div className="tfg-card__heading">
@@ -13,3 +14,10 @@ export default function Card({ title, children }) {
     </div>
   )
 }
+
+Card.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.any
+}
+
+export default Card;

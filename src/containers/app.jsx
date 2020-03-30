@@ -4,10 +4,10 @@ import ContextProvider from './context-provider'
 import localStorageService from '../services/localStorage';
 import Invoice from './invoice/invoice';
 import Login from './login/login';
-import { Header } from '../components/header';
+import Header from '../components/header';
 
 
-export const App = props => {
+export default function App () {
   const [authentication, setAuthentication] = useState(localStorageService.getToken());
 
   return (
